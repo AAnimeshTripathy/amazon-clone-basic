@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar{
+    width:100%;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+
+.logo{
+    background-image: url("./images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-add{
+    margin-left: -60px;
+}
+.add-place{
+    display: flex;
+    font-size: 1rem;
+}
+
+.add-place p{
+    margin-left: 2px;
+}
+
+.add-deliver{
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 13px;
+}
+
+.nav-search{
+    display: flex;
+    margin-left: -80px;
+    width: 70%;
+    height: 40px;
+}
+
+.search-select select{
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(219, 226, 229);
+    border: 0.2px solid rgb(219, 226, 229);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    padding: 7px 10px 10px 7px;
+}
+
+.search-icon{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-signin{
+    margin-left: -270px;
+}
+
+.p1{
+    font-size: 0.9rem;
+}
+
+.p2{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.nav-order{
+    margin-left: -40px;
+}
+
+.nav-cart{
+    margin-left: -50px;
+    display: flex;
+}
+
+.cart-icon i{
+    font-size: 2rem;
+}
+
+.nav-cart span{
+    margin-top: 12px;
+    font-size: 0.95rem;
+}
+
+/* menubar */
+.menubar{
+    background-color: #172f2f;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    padding: 8px 9px;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 4px;
+}
+
+.options a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 0.5px;
+}
+
+/* main */
+.content{
+    width: 100%;
+}
+
+.hero{
+    background-image: url("./images/hero2_image.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px;
+    width: 95%;
+    margin-bottom: 40px;
+    color: #0f1111;
+}
+
+.heromsg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Shopping */
+.shopping{
+    background-color: #faeace;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: white;
+    border: 1px solid black;
+    height: 450px;
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.box h2{
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.box-pic{
+    height: 73% ;
+    background-size: cover;
+    margin: 15px;
+}
+
+.box a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.9rem;
+    margin-left: 25px;
+}
+
+#smartwatch .box-pic{
+    height: 68%;
+    background-size: cover;
+}
+
+/* footer */
+.foot1{
+    background-color: #2f3c4b;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+
+.foot2{
+    background-color: #284343;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.links li{
+    font-size: 0.9rem;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.link-title{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-top: 40px;
+}
+
+.foot3{
+    background-color: #284343;
+    border-top: 0.05px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    width: 110px;
+    height: auto;
+}
+
+.foot4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.copylink a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;  
+}
+
+.copylink a:hover{
+    text-decoration: underline;
+}
+
+.foot4 p{
+    margin-top: 8px;
+}
